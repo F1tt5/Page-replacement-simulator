@@ -1,0 +1,17 @@
+﻿  ArchiveMemory.cc
+  IODevice.cc
+  MainMemory.cc
+  OS.cc
+  PageDistribution.h
+  Process.cc
+  Processor.cc
+  VirtualMemoryProcessor.cc
+  main.cc
+D:\Diplom Bakalavr\Diplom\VKRKopiyaIteracii\VKR\VKR\main.cc(219,81): warning C4267: =: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+D:\Diplom Bakalavr\Diplom\VKRKopiyaIteracii\VKR\VKR\main.cc(329,33): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода
+  6 of 857 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    12 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  VKR.vcxproj -> D:\Diplom Bakalavr\Diplom\VKRKopiyaIteracii\VKR\x64\Release\VKR.exe
