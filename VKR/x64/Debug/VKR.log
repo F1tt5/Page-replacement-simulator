@@ -1,0 +1,9 @@
+﻿  main.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\iomanip(92,94): warning C4244: аргумент: преобразование "_Money" в "long double", возможна потеря данных
+          with
+          [
+              _Money=const SimulatorTime
+          ]
+C:\Users\boris\Desktop\VKR\VKR\VKR\main.cc(316): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::_Monobj<const SimulatorTime> &)"
+C:\Users\boris\Desktop\VKR\VKR\VKR\main.cc(316,84): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::_Monobj<const SimulatorTime> &)"
+  VKR.vcxproj -> C:\Users\boris\Desktop\VKR\VKR\x64\Debug\VKR.exe

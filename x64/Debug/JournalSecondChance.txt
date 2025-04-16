@@ -1,0 +1,364 @@
+Size of main memory = 30 pages
+Size of archive memory = 200 pages
+
+Time for reg = 10 nanosecond(s)
+Time for read = 20 nanosecond(s)
+Time for write = 20 nanosecond(s)
+Time for io = 50000 nanosecond(s)
+Scale (number of operations of choosen type for 1 dispatch cycle) = 1000
+
+Selected strategy: Second chance
+Number of processes = 11
+
+Time for preparing to dispatch = 10000 nanosecond(s)
+Time for preparing to finishing process operation = 5000 nanosecond(s)
+Time for preparing to IO action = 10000 nanosecond(s)
+Time for preparing to PageAction = 10000 nanosecond(s)
+Time for preparing to Page Fault = 5000 nanosecond(s)
+Time for preparing to Load Page = 5000 nanosecond(s)
+Time for preparing to Finish page Action = 5000 nanosecond(s)
+
+Working time = 600 second(s)
+Time quant for processes = 10000000 nanosecond(s)
+
+Information about process 1:
+Process size = 7 pages
+Register operation probability = 0.4
+Read operation probability = 0.3
+Write operation probability = 0.29999
+Input|output operation probability = 1e-05
+Distribution:
+0.552715 0.248351 0.111591 0.0501412 0.0225299 0.0101233 0.0045487 
+
+Information about process 2:
+Process size = 8 pages
+Register operation probability = 0.4
+Read operation probability = 0.3
+Write operation probability = 0.29999
+Input|output operation probability = 1e-05
+Distribution:
+0.551588 0.247844 0.111364 0.0500389 0.0224839 0.0101027 0.00453943 0.0020397 
+
+Information about process 3:
+Process size = 9 pages
+Register operation probability = 0.4
+Read operation probability = 0.3
+Write operation probability = 0.29999
+Input|output operation probability = 1e-05
+Distribution:
+0.551082 0.247617 0.111262 0.0499931 0.0224633 0.0100934 0.00453527 0.00203783 0.000915655 
+
+Information about process 4:
+Process size = 10 pages
+Register operation probability = 0.4
+Read operation probability = 0.3
+Write operation probability = 0.29999
+Input|output operation probability = 1e-05
+Distribution:
+0.550856 0.247515 0.111216 0.0499725 0.0224541 0.0100893 0.0045334 0.00203699 0.000915278 0.000411261 
+
+Information about process 5:
+Process size = 11 pages
+Register operation probability = 0.4
+Read operation probability = 0.3
+Write operation probability = 0.29999
+Input|output operation probability = 1e-05
+Distribution:
+0.550754 0.24747 0.111195 0.0499633 0.0224499 0.0100874 0.00453257 0.00203661 0.000915109 0.000411185 0.000184757 
+
+Information about process 6:
+Process size = 12 pages
+Register operation probability = 0.4
+Read operation probability = 0.3
+Write operation probability = 0.29999
+Input|output operation probability = 1e-05
+Distribution:
+0.550708 0.247449 0.111186 0.0499591 0.0224481 0.0100866 0.00453219 0.00203644 0.000915033 0.000411151 0.000184742 8.301e-05 
+
+Information about process 7:
+Process size = 13 pages
+Register operation probability = 0.4
+Read operation probability = 0.3
+Write operation probability = 0.29999
+Input|output operation probability = 1e-05
+Distribution:
+0.550688 0.24744 0.111182 0.0499573 0.0224472 0.0100862 0.00453202 0.00203637 0.000914999 0.000411136 0.000184735 8.30069e-05 3.72974e-05 
+
+Information about process 8:
+Process size = 14 pages
+Register operation probability = 0.4
+Read operation probability = 0.3
+Write operation probability = 0.29999
+Input|output operation probability = 1e-05
+Distribution:
+0.550679 0.247436 0.11118 0.0499564 0.0224469 0.010086 0.00453195 0.00203633 0.000914984 0.000411129 0.000184732 8.30055e-05 3.72968e-05 1.67585e-05 
+
+Information about process 9:
+Process size = 10 pages
+Register operation probability = 0.4
+Read operation probability = 0.3
+Write operation probability = 0.29999
+Input|output operation probability = 1e-05
+Distribution:
+0.9 0.02 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 
+
+Information about process 10:
+Process size = 10 pages
+Register operation probability = 0.4
+Read operation probability = 0.3
+Write operation probability = 0.29999
+Input|output operation probability = 1e-05
+Distribution:
+0.2 0.15 0.12 0.1 0.1 0.08 0.07 0.07 0.06 0.05 
+
+Information about process 11:
+Process size = 10 pages
+Register operation probability = 0.4
+Read operation probability = 0.3
+Write operation probability = 0.29999
+Input|output operation probability = 1e-05
+Distribution:
+0.550856 0.247515 0.111216 0.0499725 0.0224541 0.0100893 0.0045334 0.00203699 0.000915278 0.000411261 
+
+
+Information about process 1
+Operations done for Process: Reg. - 641755 Read - 481042 Write - 480638 IO - 14 Sum - 1603449
+WorkTime for process = 25651850000
+AllTime for process = 599999980000
+Overhead expenses percentage = 0.957247
+Page faults for process = 267410
+Save pages for process = 184611
+
+Information about pages: number, Choose probability, Number of usage, Number of loads:
+0 0.552715 532244 72534
+1 0.248351 238276 68241
+2 0.111591 107241 56733
+3 0.0501412 48299 37020
+4 0.0225299 21606 19349
+5 0.0101233 9677 9267
+6 0.0045487 4337 4259
+
+
+Information about process 2
+Operations done for Process: Reg. - 631994 Read - 473576 Write - 474342 IO - 23 Sum - 1579935
+WorkTime for process = 25279450000
+AllTime for process = 599998885000
+Overhead expenses percentage = 0.957868
+Page faults for process = 267512
+Save pages for process = 184344
+
+Information about pages: number, Choose probability, Number of usage, Number of loads:
+0 0.551588 523249 72443
+1 0.247844 234873 68162
+2 0.111364 105536 56243
+3 0.0500389 47070 36206
+4 0.0224839 21357 19179
+5 0.0101027 9655 9195
+6 0.00453943 4328 4244
+7 0.0020397 1851 1832
+
+
+Information about process 3
+Operations done for Process: Reg. - 628966 Read - 469649 Write - 470305 IO - 15 Sum - 1568935
+WorkTime for process = 25089490000
+AllTime for process = 599999450000
+Overhead expenses percentage = 0.958184
+Page faults for process = 267497
+Save pages for process = 184539
+
+Information about pages: number, Choose probability, Number of usage, Number of loads:
+0 0.551082 518069 72396
+1 0.247617 232522 67896
+2 0.111262 104706 56266
+3 0.0499931 47111 36122
+4 0.0224633 21168 19001
+5 0.0100934 9384 8926
+6 0.00453527 4256 4168
+7 0.00203783 1868 1843
+8 0.000915655 871 870
+
+
+Information about process 4
+Operations done for Process: Reg. - 627900 Read - 470468 Write - 470548 IO - 15 Sum - 1568931
+WorkTime for process = 25100070000
+AllTime for process = 599999390000
+Overhead expenses percentage = 0.958167
+Page faults for process = 267491
+Save pages for process = 184797
+
+Information about pages: number, Choose probability, Number of usage, Number of loads:
+0 0.550856 518362 72368
+1 0.247515 233396 68065
+2 0.111216 104629 55973
+3 0.0499725 46971 36084
+4 0.0224541 20984 18810
+5 0.0100893 9289 8906
+6 0.0045334 4292 4204
+7 0.00203699 1940 1921
+8 0.000915278 800 797
+9 0.000411261 354 353
+
+
+Information about process 5
+Operations done for Process: Reg. - 622093 Read - 466124 Write - 467154 IO - 16 Sum - 1555387
+WorkTime for process = 24887290000
+AllTime for process = 599999795000
+Overhead expenses percentage = 0.958521
+Page faults for process = 267496
+Save pages for process = 185186
+
+Information about pages: number, Choose probability, Number of usage, Number of loads:
+0 0.550754 514105 72287
+1 0.24747 231137 67961
+2 0.111195 103414 55927
+3 0.0499633 46449 35842
+4 0.0224499 21221 19075
+5 0.0100874 9472 9020
+6 0.00453257 4167 4075
+7 0.00203661 1890 1878
+8 0.000915109 888 887
+9 0.000411185 373 371
+10 0.000184757 163 162
+
+
+Information about process 6
+Operations done for Process: Reg. - 620315 Read - 465207 Write - 466837 IO - 21 Sum - 1552380
+WorkTime for process = 24845080000
+AllTime for process = 599998815000
+Overhead expenses percentage = 0.958591
+Page faults for process = 267545
+Save pages for process = 184740
+
+Information about pages: number, Choose probability, Number of usage, Number of loads:
+0 0.550708 514075 72490
+1 0.247449 230375 68025
+2 0.111186 103532 55931
+3 0.0499591 46336 35908
+4 0.0224481 20843 18788
+5 0.0100866 9318 8931
+6 0.00453219 4194 4114
+7 0.00203644 1860 1839
+8 0.000915033 878 876
+9 0.000411151 375 374
+10 0.000184742 187 186
+11 8.301e-05 72 71
+
+
+Information about process 7
+Operations done for Process: Reg. - 622872 Read - 465094 Write - 466050 IO - 17 Sum - 1554033
+WorkTime for process = 24852450000
+AllTime for process = 599999205000
+Overhead expenses percentage = 0.958579
+Page faults for process = 267459
+Save pages for process = 185090
+
+Information about pages: number, Choose probability, Number of usage, Number of loads:
+0 0.550688 512547 72203
+1 0.24744 230531 67956
+2 0.111182 103416 55827
+3 0.0499573 46585 36041
+4 0.0224472 20951 18863
+5 0.0100862 9562 9108
+6 0.00453202 4125 4050
+7 0.00203637 1948 1931
+8 0.000914999 813 805
+9 0.000411136 384 382
+10 0.000184735 167 165
+11 8.30069e-05 83 82
+12 3.72974e-05 33 32
+
+
+Information about process 8
+Operations done for Process: Reg. - 622885 Read - 468171 Write - 468316 IO - 13 Sum - 1559385
+WorkTime for process = 24959240000
+AllTime for process = 599999270000
+Overhead expenses percentage = 0.958401
+Page faults for process = 267477
+Save pages for process = 184855
+
+Information about pages: number, Choose probability, Number of usage, Number of loads:
+0 0.550679 516403 72397
+1 0.247436 231477 67817
+2 0.11118 103715 55807
+3 0.0499564 46937 36213
+4 0.0224469 21075 18880
+5 0.010086 9361 8926
+6 0.00453195 4172 4103
+7 0.00203633 1856 1836
+8 0.000914984 810 807
+9 0.000411129 381 380
+10 0.000184732 185 184
+11 8.30055e-05 70 69
+12 3.72968e-05 30 29
+13 1.67585e-05 16 15
+
+
+Information about process 9
+Operations done for Process: Reg. - 1481569 Read - 1112662 Write - 1114124 IO - 41 Sum - 3708396
+WorkTime for process = 59353460000
+AllTime for process = 599998935000
+Overhead expenses percentage = 0.901077
+Page faults for process = 263652
+Save pages for process = 182461
+
+Information about pages: number, Choose probability, Number of usage, Number of loads:
+0 0.9 2003585 74293
+1 0.02 44539 33494
+2 0.01 22074 19269
+3 0.01 22283 19491
+4 0.01 22417 19551
+5 0.01 22461 19616
+6 0.01 22707 19657
+7 0.01 22240 19456
+8 0.01 22342 19510
+9 0.01 22139 19305
+
+
+Information about process 10
+Operations done for Process: Reg. - 237298 Read - 177165 Write - 177696 IO - 5 Sum - 592164
+WorkTime for process = 9470450000
+AllTime for process = 599998955000
+Overhead expenses percentage = 0.984216
+Page faults for process = 269839
+Save pages for process = 189031
+
+Information about pages: number, Choose probability, Number of usage, Number of loads:
+0 0.2 70335 44188
+1 0.15 53732 37507
+2 0.12 42938 32191
+3 0.1 35565 28065
+4 0.1 35363 28076
+5 0.08 28230 23391
+6 0.07 24662 20932
+7 0.07 24892 21099
+8 0.06 21367 18579
+9 0.05 17778 15801
+
+
+Information about process 11
+Operations done for Process: Reg. - 621676 Read - 466529 Write - 466653 IO - 13 Sum - 1554871
+WorkTime for process = 24881050000
+AllTime for process = 599999790000
+Overhead expenses percentage = 0.958532
+Page faults for process = 267494
+Save pages for process = 184926
+
+Information about pages: number, Choose probability, Number of usage, Number of loads:
+0 0.550856 513873 72563
+1 0.247515 231028 67787
+2 0.111216 104089 56077
+3 0.0499725 46288 35861
+4 0.0224541 21124 18943
+5 0.0100893 9394 8990
+6 0.0045334 4335 4236
+7 0.00203699 1863 1847
+8 0.000915278 808 801
+9 0.000411261 381 379
+
+
+Page faults for system = 2940872
+Save pages for system = 2034580
+Positive work time for system = 294369880000
+All work time for system = 600000000000
+Operations in 1 second done = 30663
+Overhead expenses percentage = 0.509383

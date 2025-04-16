@@ -1,0 +1,379 @@
+Selected strategy: Aging
+Aging time = 100000
+Process 1:
+Size: 7 pages
+Operations prob: Register=0.4 Read=0.3 Write=0.29999 IO=1e-05
+Distribution: 0.385675 0.192837 0.128558 0.0964187 0.077135 0.0642792 0.0550964 
+
+Process 2:
+Size: 8 pages
+Operations prob: Register=0.4 Read=0.3 Write=0.29999 IO=1e-05
+Distribution: 0.367937 0.183968 0.122646 0.0919842 0.0735874 0.0613228 0.0525624 0.0459921 
+
+Process 3:
+Size: 9 pages
+Operations prob: Register=0.4 Read=0.3 Write=0.29999 IO=1e-05
+Distribution: 0.353486 0.176743 0.117829 0.0883714 0.0706971 0.0589143 0.050498 0.0441857 0.0392762 
+
+Process 4:
+Size: 10 pages
+Operations prob: Register=0.4 Read=0.3 Write=0.29999 IO=1e-05
+Distribution: 0.341417 0.170709 0.113806 0.0853543 0.0682834 0.0569029 0.0487739 0.0426771 0.0379352 0.0341417 
+
+Process 5:
+Size: 11 pages
+Operations prob: Register=0.4 Read=0.3 Write=0.29999 IO=1e-05
+Distribution: 0.331139 0.16557 0.11038 0.0827848 0.0662279 0.0551899 0.0473056 0.0413924 0.0367933 0.0331139 0.0301036 
+
+Process 6:
+Size: 12 pages
+Operations prob: Register=0.4 Read=0.3 Write=0.29999 IO=1e-05
+Distribution: 0.322247 0.161123 0.107416 0.0805617 0.0644494 0.0537078 0.0460353 0.0402809 0.0358052 0.0322247 0.0292952 0.0268539 
+
+Process 7:
+Size: 13 pages
+Operations prob: Register=0.4 Read=0.3 Write=0.29999 IO=1e-05
+Distribution: 0.314452 0.157226 0.104817 0.078613 0.0628904 0.0524087 0.0449217 0.0393065 0.0349391 0.0314452 0.0285866 0.0262043 0.0241886 
+
+Process 8:
+Size: 14 pages
+Operations prob: Register=0.4 Read=0.3 Write=0.29999 IO=1e-05
+Distribution: 0.307544 0.153772 0.102515 0.0768861 0.0615089 0.0512574 0.0439349 0.0384431 0.0341716 0.0307544 0.0279586 0.0256287 0.0236573 0.0219675 
+
+Process 9:
+Size: 10 pages
+Operations prob: Register=0.4 Read=0.3 Write=0.29999 IO=1e-05
+Distribution: 0.9 0.02 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 
+
+Process 10:
+Size: 10 pages
+Operations prob: Register=0.4 Read=0.3 Write=0.29999 IO=1e-05
+Distribution: 0.2 0.15 0.12 0.1 0.1 0.08 0.07 0.07 0.06 0.05 
+
+Process 11:
+Size: 10 pages
+Operations prob: Register=0.4 Read=0.3 Write=0.29999 IO=1e-05
+Distribution: 0.341417 0.170709 0.113806 0.0853543 0.0682834 0.0569029 0.0487739 0.0426771 0.0379352 0.0341417 
+
+Simulation parameters:
+Main memory size: 35 pages
+Archive memory size: 200 pages
+Time for register: 1 ns
+Time for read: 2 ns
+Time for write: 2 ns
+Time for IO: 50000 ns
+Operation scale: 1000
+Strategy: Aging
+Processes number: 11
+Dispatch time: 100 ns
+IO time: 300 ns
+Page action time: 500 ns
+Work time: 60 s
+Quant time: 10000000 ns
+Info size: 60
+Output: 0
+
+Information about process 1
+Operations done for Process: Reg., Read, Write, IO, Sum
+14597786000 10943980000 10944980000 348 36486746348
+WorkTime for process = 58375706000
+AllTime for process = 58651822100
+Overhead expenses = 0.470775%
+Page faults for process = 416
+Save pages for process = 277
+
+Information about pages: number, Choose probability, Number of usage, Number of loads:
+0 0.385675 8441444 70
+1 0.192837 4219823 66
+2 0.128558 2814159 57
+3 0.0964187 2114313 64
+4 0.077135 1688712 52
+5 0.0642792 1405785 49
+6 0.0550964 1204725 51
+
+Information about process 2
+Operations done for Process: Reg., Read, Write, IO, Sum
+4192000 3186000 3069000 0 10447000
+WorkTime for process = 16702000
+AllTime for process = 701352500
+Overhead expenses = 97.6186%
+Page faults for process = 2088
+Save pages for process = 1455
+
+Information about pages: number, Choose probability, Number of usage, Number of loads:
+0 0.367937 2280 355
+1 0.183968 1195 325
+2 0.122646 768 287
+3 0.0919842 567 270
+4 0.0735874 463 240
+5 0.0613228 365 220
+6 0.0525624 340 199
+7 0.0459921 278 184
+
+Information about process 3
+Operations done for Process: Reg., Read, Write, IO, Sum
+254273000 191827000 190929000 7 637029007
+WorkTime for process = 1019785000
+AllTime for process = 3348661700
+Overhead expenses = 69.5465%
+Page faults for process = 6478
+Save pages for process = 4426
+
+Information about pages: number, Choose probability, Number of usage, Number of loads:
+0 0.353486 135235 1103
+1 0.176743 67677 958
+2 0.117829 45185 840
+3 0.0883714 33874 760
+4 0.0706971 26837 661
+5 0.0589143 22559 603
+6 0.050498 19443 563
+7 0.0441857 16846 487
+8 0.0392762 15101 494
+
+Information about process 4
+Operations done for Process: Reg., Read, Write, IO, Sum
+10372000 7705000 7666000 0 25743000
+WorkTime for process = 41114000
+AllTime for process = 2397688700
+Overhead expenses = 98.2853%
+Page faults for process = 6588
+Save pages for process = 4497
+
+Information about pages: number, Choose probability, Number of usage, Number of loads:
+0 0.341417 5254 1095
+1 0.170709 2654 917
+2 0.113806 1760 824
+3 0.0853543 1271 714
+4 0.0682834 964 602
+5 0.0569029 928 588
+6 0.0487739 742 509
+7 0.0426771 667 461
+8 0.0379352 596 453
+9 0.0341417 536 415
+
+Information about process 5
+Operations done for Process: Reg., Read, Write, IO, Sum
+3105000 2309000 2233000 0 7647000
+WorkTime for process = 12189000
+AllTime for process = 1057207200
+Overhead expenses = 98.8471%
+Page faults for process = 2404
+Save pages for process = 1542
+
+Information about pages: number, Choose probability, Number of usage, Number of loads:
+0 0.331139 1561 432
+1 0.16557 741 352
+2 0.11038 477 282
+3 0.0827848 365 246
+4 0.0662279 304 222
+5 0.0551899 235 174
+6 0.0473056 214 164
+7 0.0413924 188 147
+8 0.0367933 163 129
+9 0.0331139 165 135
+10 0.0301036 130 110
+
+Information about process 6
+Operations done for Process: Reg., Read, Write, IO, Sum
+4306000 3228000 3197000 0 10731000
+WorkTime for process = 17156000
+AllTime for process = 1382532200
+Overhead expenses = 98.7591%
+Page faults for process = 3445
+Save pages for process = 2258
+
+Information about pages: number, Choose probability, Number of usage, Number of loads:
+0 0.322247 2056 574
+1 0.161123 1027 473
+2 0.107416 674 391
+3 0.0805617 533 343
+4 0.0644494 430 301
+5 0.0537078 376 270
+6 0.0460353 289 213
+7 0.0402809 271 215
+8 0.0358052 203 167
+9 0.0322247 205 167
+10 0.0292952 185 164
+11 0.0268539 177 155
+
+Information about process 7
+Operations done for Process: Reg., Read, Write, IO, Sum
+4515000 3391000 3317000 0 11223000
+WorkTime for process = 17931000
+AllTime for process = 967009600
+Overhead expenses = 98.1457%
+Page faults for process = 3137
+Save pages for process = 2179
+
+Information about pages: number, Choose probability, Number of usage, Number of loads:
+0 0.314452 2094 463
+1 0.157226 1106 395
+2 0.104817 728 336
+3 0.078613 510 297
+4 0.0628904 399 251
+5 0.0524087 342 227
+6 0.0449217 289 213
+7 0.0393065 278 203
+8 0.0349391 254 181
+9 0.0314452 208 161
+10 0.0285866 173 137
+11 0.0262043 160 127
+12 0.0241886 168 133
+
+Information about process 8
+Operations done for Process: Reg., Read, Write, IO, Sum
+1449000 1121000 1107000 0 3677000
+WorkTime for process = 5905000
+AllTime for process = 653470900
+Overhead expenses = 99.0964%
+Page faults for process = 1346
+Save pages for process = 839
+
+Information about pages: number, Choose probability, Number of usage, Number of loads:
+0 0.307544 671 229
+1 0.153772 334 169
+2 0.102515 258 164
+3 0.0768861 169 113
+4 0.0615089 140 104
+5 0.0512574 114 92
+6 0.0439349 91 80
+7 0.0384431 92 74
+8 0.0341716 71 62
+9 0.0307544 77 63
+10 0.0279586 65 55
+11 0.0256287 59 50
+12 0.0236573 48 44
+13 0.0219675 40 33
+
+Information about process 9
+Operations done for Process: Reg., Read, Write, IO, Sum
+56618000 42980000 42162000 1 141760001
+WorkTime for process = 226902000
+AllTime for process = 2565616800
+Overhead expenses = 91.156%
+Page faults for process = 6558
+Save pages for process = 4440
+
+Information about pages: number, Choose probability, Number of usage, Number of loads:
+0 0.9 76668 1267
+1 0.02 1692 795
+2 0.01 862 588
+3 0.01 921 581
+4 0.01 856 571
+5 0.01 849 574
+6 0.01 818 552
+7 0.01 865 563
+8 0.01 824 538
+9 0.01 788 519
+
+Information about process 10
+Operations done for Process: Reg., Read, Write, IO, Sum
+8279000 6182000 6094000 0 20555000
+WorkTime for process = 32831000
+AllTime for process = 2375999900
+Overhead expenses = 98.6182%
+Page faults for process = 6586
+Save pages for process = 4470
+
+Information about pages: number, Choose probability, Number of usage, Number of loads:
+0 0.2 2498 914
+1 0.15 1819 820
+2 0.12 1484 784
+3 0.1 1219 692
+4 0.1 1207 688
+5 0.08 976 597
+6 0.07 907 579
+7 0.07 851 552
+8 0.06 735 513
+9 0.05 581 437
+
+Information about process 11
+Operations done for Process: Reg., Read, Write, IO, Sum
+4665000 3728000 3604000 0 11997000
+WorkTime for process = 19329000
+AllTime for process = 1412542500
+Overhead expenses = 98.6316%
+Page faults for process = 3452
+Save pages for process = 2304
+
+Information about pages: number, Choose probability, Number of usage, Number of loads:
+0 0.341417 2538 621
+1 0.170709 1260 511
+2 0.113806 821 428
+3 0.0853543 648 393
+4 0.0682834 476 324
+5 0.0569029 454 305
+6 0.0487739 319 230
+7 0.0426771 280 212
+8 0.0379352 293 228
+9 0.0341417 244 190
+
+
+Information about system:
+Page faults for system = 42498
+Save pages for system = 28687
+Positive work time for system = 59785550000
+All work time for system = 60000000000
+Operations in 1 second done = 622792589
+Overhead expenses = 0.357419%
+Time, Overhead expenses, OP free space, AM free space:
+1000000000 -nan(ind)% 35 200
+2000000000 20.5195% 0 107
+3000000000 10.2669% 0 107
+4000000000 6.84856% 0 107
+5000000000 5.14017% 0 107
+6000000000 4.11444% 0 107
+7000000000 3.43103% 0 107
+8000000000 2.94442% 0 107
+9000000000 2.57781% 0 107
+10000000000 2.29276% 0 107
+11000000000 2.06469% 4 121
+12000000000 1.87797% 0 121
+13000000000 1.7228% 0 121
+14000000000 1.59093% 0 121
+15000000000 1.4798% 0 121
+16000000000 1.38234% 0 121
+17000000000 1.29674% 0 121
+18000000000 1.22132% 0 121
+19000000000 1.154% 0 121
+20000000000 1.09414% 0 121
+21000000000 1.04182% 4 132
+22000000000 0.992888% 0 132
+23000000000 0.948119% 0 132
+24000000000 0.907218% 0 132
+25000000000 0.871295% 0 132
+26000000000 0.836885% 0 132
+27000000000 0.805259% 0 132
+28000000000 0.775957% 0 132
+29000000000 0.749159% 0 132
+30000000000 0.723726% 0 132
+31000000000 0.700223% 10 154
+32000000000 0.67786% 0 141
+33000000000 0.65707% 0 141
+34000000000 0.637424% 0 141
+35000000000 0.620353% 0 141
+36000000000 0.602955% 0 141
+37000000000 0.586444% 0 141
+38000000000 0.570762% 0 141
+39000000000 0.55604% 0 141
+40000000000 0.541997% 0 141
+41000000000 0.529081% 0 141
+42000000000 0.516397% 0 133
+43000000000 0.504327% 0 133
+44000000000 0.492799% 0 133
+45000000000 0.481832% 0 133
+46000000000 0.47133% 0 133
+47000000000 0.461239% 0 133
+48000000000 0.451791% 0 133
+49000000000 0.442529% 0 133
+50000000000 0.433791% 0 133
+51000000000 0.425297% 0 133
+52000000000 0.417757% 0 133
+53000000000 0.410479% 0 133
+54000000000 0.40291% 0 133
+55000000000 0.39562% 0 133
+56000000000 0.388694% 0 133
+57000000000 0.382006% 0 133
+58000000000 0.375766% 0 133
+59000000000 0.369412% 0 133
+60000000000 0.363302% 0 133
